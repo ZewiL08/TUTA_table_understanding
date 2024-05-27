@@ -43,6 +43,8 @@ To perform the task of table type classification at downstream:
 - for data processing, use `SheetReader` in the reader.py and `TtcTokenizer` in the tokenizer.py; 
 - for fine-tuning, use the `TtcHead` and `TUTA(base)forTTC` in the ./model/ directory.
 
+./tuta_pretrained/script/experiemnt.sh 
+
 For an end-to-end trial, run:
 ```bash
 python ctc_finetune.py                                           \
